@@ -14,7 +14,6 @@ if {[$selection num] == 0} {
     exit
 }
 
-# Write the selected nucleic acids to a new PDB file
 $selection writepdb $output_pdb_file
 $selection writepsf $output_psf_file
 
