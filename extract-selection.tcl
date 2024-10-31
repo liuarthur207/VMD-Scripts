@@ -9,7 +9,6 @@ mol addfile $rst7_file
 #Change <selection> to fit
 set selection [atomselect top "<selection>"]
 
-# Check if nucleic acids were found
 if {[$selection num] == 0} {
     puts "No residues found. Exiting."
     exit
