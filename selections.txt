@@ -1,0 +1,3 @@
+VMD selection for selecting residues
+
+same residue as (resname POP and within 3 of nucleic)
